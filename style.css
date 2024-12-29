@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outerMost{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+}
+
+.d1{
+    height: max-content;
+    width: 390px;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    left: 200px;
+    align-self: center;
+    margin-right: 250px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 900;
+    color: rgb(96, 96, 230);
+}
+
+p{
+    font-family: "Fira Sans", sans-serif;
+    font-size: larger;
+    font-weight: 300;
+}
+
+.d2{
+    height: 300px;
+    width: 30vw;
+    position: relative;
+    background-color: white;
+    /* display: flex; */
+    align-self: center;
+    margin-left: 80px;
+    box-shadow: 3px 3px 3px 3px lightblue;
+    border-radius: 3%;
+}
+
+input{
+    width: 96.5%;
+    height: 3em;
+    margin: 5px;
+    padding-left: 10px;
+    justify-self: center;
+    border-radius: 3%;
+    box-shadow: 1px 1px 1px 1px lightblue;
+    border: 1px solid rgb(204, 202, 202);
+    box-sizing: border-box;
+}
+
+#i3:hover{
+    cursor: pointer;
+}
+#i4:hover{
+    cursor: pointer;
+}
+
+#i1{
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#i1:focus{
+    border: 3px solid rgb(96, 96, 230);
+}
+
+#i2:focus{
+    border: 3px solid rgb(96, 96, 230);
+}
+
+#i3{
+    width: 96.5%;
+    height: 3em;
+    background-color: rgb(96, 96, 230);
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 1000;
+}
+
+#a1{
+    margin-top: 11%;
+    margin-left: 31%;
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+}
+
+#i4{
+    width: 50%;
+    margin-left: 24%;
+    margin-bottom: 30px;
+    background-color: rgb(42, 206, 42);
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+}
+
+#p0{
+    height: 1px;
+    width: 450px;
+    position: relative;
+    align-self: center;
+    top: 32%;
+    right: 24%;
+    font-size: 15px;
+}
